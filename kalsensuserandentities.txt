@@ -1,0 +1,45 @@
+Kailee Alsens
+COMC1714 Entities Worksheet
+
+User Stories:
+As a photography client, I want to view an itemized invoice.
+As a photographer, I want to create itemized invoices,
+As a potential client, I want to find a photographer near me who fits my needs.
+As a photographer, I want to sell my work based on category. 
+ 
+
+Business transactions:
+ Invoice(Invoice ID, Session Type, Session Hours, # of Photos, Date, Amount, Due date)
+
+Transaction line items:
+ Line Item(Line Item ID, Invoice ID, Description, Amount)
+
+Product or service related to a transaction:
+ Photography Session(Session ID, Session Type, Session Hours, # of Photos, Amount)
+
+Roles of people:
+ Client(Client ID, First Name, Last Name, Phone Number, Email)
+ Photographer(Photographer ID, First Name, Last Name, Session Type, State, Phone Number, Email)
+
+Place of transaction or service:
+ Photoshoot Location(Location ID, Address, City, State)
+
+Noteworth events:
+ 
+
+Physical objects:
+ Invoice(Invoice ID, Session Type, Session Hours, # of Photos, Date, Amount, Due Date)
+
+Locations:
+ 
+
+Descriptions of things (text, unit of measurement, time period, etc.):
+ 
+
+Catalogs:
+ 
+
+Containers of other things:
+ 
+
+Things in a container:
